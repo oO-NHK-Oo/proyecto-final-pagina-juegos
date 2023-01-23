@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Tienda dejuegos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-dark min-vw-100">
+        <h2 class="p-3 text-white">NHK</h2>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              data-bs-toggle="modal"
+              data-bs-target="#modal"
+            >
+              <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
+            </a>
+          </li>
+        </ul>
+        <div class="container-fluid p-0 m-0">
+          <ul class="menu mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="row mt-5 w-100 h-25" id="contenedor"></div>
+    </main>
+
+    <div class="container-x1 mx-auto">
+      <div class="modal" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header mx-auto">
+              <h5 class="modal-title">Carrito de compras</h5>
+              <button
+                type="button"
+                class="close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-danger mx-auto"
+                id="vaciarCarrito"
+              >
+                Vaciar carrito
+              </button>
+              <button
+                type="button"
+                id="procesarCompra"
+                class="btn btn-primary mx-auto"
+              >
+                Continuar comprando
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+
+              <span>Precio total:</span>
+              <p class="text-center" id="precioTotal"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <footer class="text-center text-white" style="background-color: #000000ef">
+      <div class="container ">
+        <section class="mt-5">
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="../index.html" class="text-white">Inicio</a>
+              </h6>
+            </div>
+  
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./contacto.html" class="text-white">Contacto</a>
+              </h6>
+            </div>
+          </div>
+        </section>
+  
+        <hr class="my-2" />
+  
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+             
+            </div>
+          </div>
+        </section>
+  
+        <section class="text-center mb-5">
+          <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>  
+         
+         
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>  
+        </section>
+      </div>
+  
+      <div
+           class="text-center p-3">
+           © 2020 Copyright:
+           <a class="text-white" 
+              >NHK</a
+             >
+        
+        </div>
+           
+      
+    </footer>
+  
+
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/0ced445659.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+

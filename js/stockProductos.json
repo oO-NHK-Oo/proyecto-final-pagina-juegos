@@ -1,0 +1,66 @@
+    [
+    {
+      "id": 1,
+      "nombre": "Call of duty",
+      "cantidad": 1,
+      "desc": "Disparos",
+      "precio": 1200,
+      "img": "img/COD-WWII.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Mortal Kombat 11",
+      "cantidad": 1,
+      "desc": "Lucha",
+      "precio": 1500,
+      "img": "img/mortal-kombat.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Dirt 5",
+      "cantidad": 1,
+      "desc": "Conduccion",
+      "precio": 1570,
+      "img": "img/Dirt5.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Forza horizon 5",
+      "cantidad": 1,
+      "desc": "Conduccion",
+      "precio": 1000,
+      "img": "img/FORZAHORIZON5.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Ghostwire",
+      "cantidad": 1,
+      "desc": "Accion",
+      "precio": 1200,
+      "img": "img/Ghostwire.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Riders republic",
+      "cantidad": 1,
+      "desc": "Deporte",
+      "precio": 1200,
+      "img": "img/riders-republic.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "State of decay",
+      "cantidad": 1,
+      "desc": "Accion",
+      "precio": 1400,
+      "img": "img/stateofdecay.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Stray",
+      "cantidad": 1,
+      "desc": "Aventuras",
+      "precio": 1200,
+      "img": "img/STRAY.png"
+    }
+]
